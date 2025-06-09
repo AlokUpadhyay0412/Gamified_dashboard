@@ -1,10 +1,13 @@
 # Gamified User Dashboard
 A fun and interactive user dashboard that motivates users by tracking XP, levels, streaks, and mood check-ins — all wrapped in a clean and visually appealing UI.
 
+# Live Demo
+- [Try the Dashboard Now](https://alokupadhyay0412.github.io/Gamified_dashboard/)
+  
 # Features
  @ User Authentication
   - Email/password login via Firebase Authentication.
-  
+    
 @ XP & Level System
   - XP updates based on user activity.
   - Visual progress bar indicating how close the user is to the next level.
