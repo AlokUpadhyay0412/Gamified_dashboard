@@ -5,9 +5,9 @@ import { getFirestore, doc, getDoc, updateDoc, setDoc, increment, arrayUnion } f
 
 // Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyCUPtkpRcz6BLeyyga-L2B74KLzLUEAm0E",
-  authDomain: "gamified-dashboard-8bedd.firebaseapp.com",
-  projectId: "gamified-dashboard-8bedd"
+  apiKey: "USE_YOUR_API_KEY",
+  authDomain: "USE_YOUR_AUTHDOMAIN",
+  projectId: "YOUR_PROJECT_ID"
 };
 
 // Initialize Firebase services
