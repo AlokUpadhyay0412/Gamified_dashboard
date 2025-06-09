@@ -2,15 +2,11 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
 import { getFirestore, doc, getDoc, updateDoc, setDoc, increment, arrayUnion } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
-
-// Firebase config
 const firebaseConfig = {
   apiKey: "USE_YOUR_API_KEY",
   authDomain: "USE_YOUR_AUTHDOMAIN",
   projectId: "YOUR_PROJECT_ID"
 };
-
-// Initialize Firebase services
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
