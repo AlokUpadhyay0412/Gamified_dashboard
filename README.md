@@ -30,8 +30,8 @@ A fun and interactive user dashboard that motivates users by tracking XP, levels
    No server needed unless you want one.
 
 @ Test Login
-    -Email: dummymail12@gmail.com
-    -Password: dummy123 
+    - Email: dummymail12@gmail.com
+    - Password: dummy123 
 
     
 
