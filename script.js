@@ -61,7 +61,7 @@ function updateXPBar(xp) {
   const progress = xp % 100;
   document.getElementById("xpBar").style.width = `${progress}%`;
   document.getElementById("rewardMsg").innerText =
-    progress >= 100 ? "Level Up! 🎉" : `You're ${100 - progress} XP away from leveling up! 🚀`;
+    progress >= 100 ? "Level Up! 🎉" : `You're ${100 - progress} XP away from leveling up! `;
 }
 
 window.saveMood = async function () {
