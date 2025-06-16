@@ -3,9 +3,9 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebas
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
 import { getFirestore, doc, getDoc, updateDoc, setDoc, increment, arrayUnion } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
 const firebaseConfig = {
-   apiKey: "AIzaSyCUPtkpRcz6BLeyyga-L2B74KLzLUEAm0E",
-  authDomain: "gamified-dashboard-8bedd.firebaseapp.com",
-  projectId: "gamified-dashboard-8bedd"
+   apiKey: "Your API_KEY",
+  authDomain: "Your_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID"
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
